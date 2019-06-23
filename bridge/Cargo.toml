@@ -1,0 +1,27 @@
+[package]
+name = "bridge"
+version = "0.5.0"
+authors = ["debris <marek.kotewicz@gmail.com>", "snd <kruemaxi@gmail.com>"]
+
+[dependencies]
+bridge-contracts = { path = "../contracts" }
+futures = {version = "0.1",registry="susytech"}
+serde = {version = "1.0",registry="susytech"}
+serde_derive = {version = "1.0",registry="susytech"}
+serde_json = {version = "1.0",registry="susytech"}
+tokio-core = "0.1.8"
+tokio-timer = {version="0.1",registry="susytech"}
+toml = "0.4.2"
+susyweb = { git = "https://github.com/tomusdrw/rust-susyweb" }
+error-chain = {version="0.12",registry="susytech"}
+sofabi = {version="6.0",registry="susytech"}
+rustc-hex = {version = "1.0",registry="susytech"}
+log = {version="0.4",registry="susytech"}
+sophon-types = {version="0.4",registry="susytech"}
+pretty_assertions = "0.2.1"
+tiny-keccak = "1.3"
+
+[dev-dependencies]
+tempdir = {version="0.3",registry="susytech"}
+quickcheck = "0.6.1"
+susy-jsonrpc-core = "8.0"

@@ -1,0 +1,15 @@
+[package]
+name = "bridge-contracts"
+version = "0.5.0"
+authors = ["debris <marek.kotewicz@gmail.com>", "snd <kruemaxi@gmail.com>"]
+
+[dependencies]
+sofabi = {version="6.0",registry="susytech"}
+sofabi-derive = {version="6.0",registry="susytech"}
+sofabi-contract = {version="6.0",registry="susytech"}
+
+[build-dependencies]
+polc = { git = "https://octonion.institute/susytech/rust_polc" }
+
+[features]
+integration-tests = []
